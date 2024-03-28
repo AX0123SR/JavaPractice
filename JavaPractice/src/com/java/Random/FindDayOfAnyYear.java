@@ -16,7 +16,7 @@ public class FindDayOfAnyYear {
         int month = Integer.parseInt(s[1]);
         int year = Integer.parseInt(s[2]);
         String res = findDay(day,month,year);
-        System.out.println("The day of Week is: " + res);
+        System.out.println("The day of Week : " + res);
     }
 
     public static String findDay(int day,int month,int year)

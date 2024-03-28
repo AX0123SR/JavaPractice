@@ -8,11 +8,12 @@ public class ArrayofNames {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size: ");
         int size = sc.nextInt();
+        sc.nextLine();
         String[] name = new String[size];
         System.out.println("Enter the names: ");
         for(int i=0; i<size; i++)
         {
-            name[i] = sc.next();
+            name[i] = sc.nextLine();
         }
 
         System.out.println("Entered names are: ");

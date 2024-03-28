@@ -17,7 +17,7 @@ public class MaxandMin {
 
         for(int i=0;i<arr.length;i++)
         {
-            max = arr[i].
+            max = arr[i];
         }
 
     }
