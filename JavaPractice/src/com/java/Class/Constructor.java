@@ -5,8 +5,8 @@ public class Constructor {
     int a,b;
     Constructor(int x,int y)
     {
-        a=x;
-        b=y;
+        this.a=x;
+        this.b=y;
     }
 
     void print()
